@@ -1,6 +1,7 @@
 const { CommandoClient } = require('discord.js-commando');
 const { Structures } = require('discord.js');
 const path = require('path');
+const express = require('express');
 const { prefix, token, discord_owner_id } = require('./config.json');
 
 Structures.extend('Guild', function(Guild) {
